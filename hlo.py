@@ -90,4 +90,113 @@ def mess():
     print("Global:",x)
     print("local:",y)
 mess()  
-print("global outside function",x)  
+print("global outside function",x) 
+
+
+
+
+
+#list_name=["annu","anisha","anny"]
+fruits=["apple","banana","cherry"]
+print(fruits)
+
+
+#append()=add an item to the end of the list
+a=["apple","banana","cherry"]
+a.append("orange")
+print(a)
+
+#insert()=add an item at the specified index
+a=["apple","banana","cherry"]
+a.insert(1,"orange")
+print(a)
+
+#remove()=remove the specified item
+a=["apple","banana","cherry"]
+a.remove("banana")
+print(a)
+
+#pop()=remove the specified index
+a=["apple","banana","cherry"]
+a.pop(1)
+print(a)
+
+#delete()=remove the specified index
+a=["apple","banana","cherry"]
+del a[0]
+print(a)
+
+#CLEAR()=remove all the items from the list
+a=["apple","banana","cherry"]
+a.clear()
+print(a)
+
+
+#SLICE()=return a part of the list
+a=["apple","banana","cherry","orange","kiwi","melon","mango"]
+print(a[2:5])
+
+
+#replace()=replace the specified item with the new item
+a=["apple","banana","cherry"]
+a[1]="orange"
+print(a)
+
+
+#reverse()=reverse the order of the list
+a=["apple","banana","cherry"]
+a.reverse()
+print(a)
+
+
+#sort()=sort the list
+a=["apple","banana","cherry"]
+a.sort()
+print(a)
+
+
+#copy()=copy the list
+a=["apple","banana","cherry"]
+b=a.copy()
+print(b)
+
+
+#count()=return the number of times the specified item appears in the list
+a=["apple","banana","cherry","apple"]
+print(a.count("apple"))
+
+
+#count()=return the number of times the specified item appears in the list
+a=["apple","banana","cherry","apple"]
+print(a.count("apple"))
+
+
+
+#index()=return the index of the first occurrence of the specified item
+a=["apple","banana","cherry"]
+print(a.index("banana"))
+
+
+
+#list length
+a=["apple","banana","cherry"]
+print(len(a))
+
+
+
+#nested list
+a=["apple","banana","cherry",["kiwi","melon","mango"]]
+print(a)
+
+
+#list concatenation
+a=["apple","banana","cherry"]
+b=["orange","grape","mango"]
+c=a+b
+print(c)
+
+
+#loop through a list
+a=["apple","banana","cherry"]
+for x in a:
+    print(x)
