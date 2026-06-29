@@ -200,3 +200,10 @@ print(c)
 a=["apple","banana","cherry"]
 for x in a:
     print(x)
+
+#extend()=add the elements of a list (or any iterable), to the end of the current list
+a=["apple","banana","cherry"]
+b=["orange","grape","mango"]
+a.extend(b)
+print(a)
+
