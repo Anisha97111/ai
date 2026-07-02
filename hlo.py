@@ -182,7 +182,10 @@ print(a.index("banana"))
 a=["apple","banana","cherry"]
 print(len(a))
 
-
+#push()=add an item to the end of the list
+a=["apple","banana","cherry"]
+a.append("orange")
+print(a)
 
 #nested list
 a=["apple","banana","cherry",["kiwi","melon","mango"]]
@@ -206,4 +209,114 @@ a=["apple","banana","cherry"]
 b=["orange","grape","mango"]
 a.extend(b)
 print(a)
+
+a=["a","b","c","o","g","m"]
+print(a[1:4])
+print(a)
+
+
+a=["a","b","c","o","g","m"]
+print(a[-4:-2])
+
+#tuple
+#change tuple to list
+#add element to list
+#change list to tuple
+number=(1,2,3,4,)
+print(number)
+number1=list(number)
+print(number1)
+number1.append(5)
+print(number1)
+number=tuple(number1)
+print(number)
+
+#tuple
+mess=("annu",(4,4.5,True),5)
+print(mess)
+text=list(mess)
+print(text)
+text.pop(2)
+print(text)
+mess=tuple(text)
+print(mess)
+
+
+#concatenate tuple
+number=(1,2,3,4,5)
+number1=(6,7,8,9,10)
+number2=concat=number+number1
+print(number2)
+
+
+#unpacking a tuple
+number=((1,2,3),(4,5,6),7,8,9)
+n1,n2,*n3=number
+print(n1)
+print(n2)
+print(n3)
+
+#count in tuple
+number=(1,2,3,4,5,6,7,8,9,10,5,5,5)
+print(number.count(5))
+
+#index in tuple
+number=(1,2,3,4,5,6,7,5,8,9,5,10)
+print(number.index(5))
+
+
+
+#tuple
+this_tuple=["apple","banana","cherry"]
+print(this_tuple[-3:])
+print(this_tuple[:2])
+
+#tuple
+a=("apple","banana","cherry")
+print(a)
+a1=list(a)
+print(a1)
+a1.append("orange")
+print(a1)
+a=tuple(a1)
+print(a)
+
+#syntax of set
+#unordered, unindexed, no duplicate values
+#allows different data types
+a={"apple","banana","cherry"}
+print(a)
+a={"apple","banana","cherry","apple","banana","mango"}
+print(a)
+print(len(a))
+
+a={1,"hlo",2.4,True,(1,2,3)}
+print(a)
+print(type(a))
+
+#change list to set
+#change set to list
+a=["apple","banana","cherry"]
+a1=set(a)
+print(a1)
+a=list(a1)
+print(a)
+
+#change tuple to set
+#change set to tuple
+a=('apple','banana','cherry')
+a1=set(a)
+print(a1)
+a=tuple(a1)
+print(a)
+
+
+
+
+
+
+
+
+
+
 
